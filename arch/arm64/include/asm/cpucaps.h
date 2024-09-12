@@ -73,9 +73,9 @@
 #define ARM64_SPECTRE_BHB                       59
 #define ARM64_WORKAROUND_2457168                60
 #define ARM64_WORKAROUND_1742098		64
-#define ARM64_WORKAROUND_SPECULATIVE_SSBS       62
+#define ARM64_WORKAROUND_SPECULATIVE_SSBS	65
 
-/* kabi: reserve 65 - 76 for future cpu capabilities */
-#define ARM64_NCAPS                             63
+/* kabi: reserve 66 - 76 for future cpu capabilities */
+#define ARM64_NCAPS				76
 
 #endif /* __ASM_CPUCAPS_H */
